@@ -19,16 +19,16 @@ There are six different algorithms implemented in plain C++.
 The first four of these algorithms are also implemented with the EMP-toolkit. For the others a direct implementation is not convenient due to unefficient management of secret indexes in secure computation.
 
 # Getting started
-## C++ (`standard` directory)
+## C++ (`Standard` directory)
 After compiling, just run:
 ```sh
 ./EditDistance <input_length> <threshold>
 ```
-## EMP (`secure` directory)
+## EMP (`Secure` directory)
 1. Install the [EMP-toolkit](https://github.com/emp-toolkit)
 2. Run `./bin/EditDistance 1 12345 <input_length> <threshold> & ./bin/EditDistance 2 12345 <input_length> <threshold>` 
 ## Parameters
-The `<input_length>` (must be the same for the programs in `secure` directory) and the `<threshold>` are optional.
+The `<input_length>` (must be the same for the programs in `Secure` directory) and the `<threshold>` are optional.
 
 Possible `<input_length>` are: 5, 7, 50, 100, 200, 250, 500, 1000, 2000, 3000, 3500, 4000, 5000, 10000, 50000. These are randomly generated DNA (A, C, G, T) strings.
 
