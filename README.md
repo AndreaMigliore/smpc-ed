@@ -1,5 +1,5 @@
 <p align="center">
-    <a href="https://github.com/Enoki19/smpc-ed">
+    <a href="https://github.com/AndreaMigliore/smpc-ed">
         <img src="img/genome.png" alt="SMPC-ED" title="SMPC-ED" height="80"/>
     </a>
 </p>
