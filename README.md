@@ -16,7 +16,7 @@ There are six different algorithms implemented in plain C++.
 - **Enhanced Ukkonen**: ["An Extension of Ukkonen's Enhanced Dynamic Programming ASM Algorithm"](http://berghel.net/publications/asm/asm.pdf). 1996.
 - **Myers' Bit-Vector**: ["A Fast Bit-Vector Algorithm for Approximate String Matching Based on Dynamic Programming"](http://www.gersteinlab.org/courses/452/09-spring/pdf/Myers.pdf). 1999.
 
-The first four of these algorithms are also implemented with the EMP-toolkit. For the others a direct implementation is not convenient due to unefficient management of secret indexes in secure computation.
+The first four of these algorithms are also implemented with the EMP-toolkit. For the others a direct implementation is not convenient due to unefficient management of secret array indexes in secure computation.
 
 # Getting started
 ## C++ (`Standard` directory)
